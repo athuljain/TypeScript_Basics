@@ -79,7 +79,7 @@
 
 // //Optional Operator
 
-// type Details={
-//     name:String,age:number|string,
-//     getName?:()=>void
-// }
+type Details={
+    name:String,age:number|string,
+    getName?:()=>void
+}
