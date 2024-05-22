@@ -79,7 +79,24 @@
 
 // //Optional Operator
 
+// type Details={
+//     name:String,age:number|string,
+//     getName?:()=>void
+// }
+
+
+//Functions
+
 type Details={
-    name:String,age:number|string,
-    getName?:()=>void
+    name:string;age:number|string;salary?:number;getName?:()=>void
 }
+
+let userDetails : Details={
+    name:"athul",age:24,salary:100000,
+}
+
+// function getName(userDetails:Details){
+//     return userDetails.name
+//     getName(userDetails)
+// }
+
